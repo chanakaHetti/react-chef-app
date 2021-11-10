@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body {
+  letter-spacing: 0.05em;
+  word-spacing: 0.2em;
+  line-height: 1.8em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style-type: none;
+  background-color: #dadfe53d;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  padding-bottom: 8px;
+  padding-left: 0px;
+  /* border-bottom: 1px dotted #333; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  color: #2d425e;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+h2, p {
+  color: #293e5c;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #3c587e;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 1.25rem !important;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-button {
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error-message {
+  color: rgb(214, 54, 54);
+}
+
+.shadow {
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.recipe-under-line {
+  background-color: #293e5c;
+  padding: 1px;
+  width: 99%;
+}
+
+.cook-method-text {
+  background-color: #dadfe53d;
+  padding: 1rem;
 }
